@@ -4,7 +4,7 @@ certifi
 click
 colorama
 distlib
-dnspython
+dnspython==2.3.0
 email-validator
 filelock
 Flask
