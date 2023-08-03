@@ -26,4 +26,4 @@ virtualenv
 Werkzeug
 WTForms
 flask_jwt_extended
-
+flask_cors
