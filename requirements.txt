@@ -25,3 +25,5 @@ sniffio
 virtualenv
 Werkzeug
 WTForms
+flask_jwt_extended
+
