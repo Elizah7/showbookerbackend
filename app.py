@@ -161,7 +161,7 @@ def get_single_movie(movie_id):
 
 # Movie Route - Create Movie
 @app.route('/data/create', methods=['POST'],endpoint='create_movie')
-# @jwt_required
+@jwt_required
 def create_movie():
     data = request.json
     category = data["category"]
@@ -248,7 +248,7 @@ def create_movie():
 # "comedyshow"
 # Movie Route - Update Movie
 @app.route('/data/<movie_id>', methods=['PATCH'],endpoint='update_movie')
-# @jwt_required
+@jwt_required
 def update_movie(movie_id):
     print(movie_id)
     data = request.json
